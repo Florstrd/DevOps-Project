@@ -6,7 +6,7 @@
 
   <groupId>com.arcada.devops</groupId>
   <artifactId>dennis_project</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.1</version>
   <packaging>jar</packaging>
 
   <name>dennis_project</name>
@@ -40,6 +40,21 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <version>3.0.0-M5</version>
       </plugin>
+      <plugin>
+    		<!-- Specify the MAIN class for the executable JAR file -->
+			<groupId>org.apache.maven.plugins</groupId>
+      		<artifactId>maven-jar-plugin</artifactId>
+          	<version>3.1.0</version>
+      		<configuration>
+        		<archive>
+          			<manifest>
+                		<addClasspath>true</addClasspath>
+                		<classpathPrefix>lib/</classpathPrefix>
+                		<mainClass>com.arcada.devops.dennis_project.App</mainClass>
+          			</manifest>
+        		</archive>
+      		</configuration>
+		</plugin>
     </plugins>
   </build>
 </project>
