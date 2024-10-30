@@ -1,6 +1,0 @@
-Manifest-Version: 1.0
-Built-By: florstrd
-Build-Jdk: 23
-Main-Class: com.arcada.devops.dennis_project.App
-Created-By: Maven Integration for Eclipse
-

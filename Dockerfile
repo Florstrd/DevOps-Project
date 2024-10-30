@@ -5,7 +5,7 @@ FROM openjdk:11-jre-slim
 WORKDIR /app
 
 # Copy the JAR file from the target directory into the container
-COPY target/dennis_project-0.1.jar dennis.project.jar
+COPY target/dennis_project-0.0.1.jar dennis.project.jar
 
 # Expose the port that the application will run on
 EXPOSE 8080
