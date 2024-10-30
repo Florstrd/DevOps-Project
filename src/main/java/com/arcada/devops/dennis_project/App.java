@@ -2,9 +2,9 @@ package com.arcada.devops.dennis_project;
 
 import java.util.Scanner;
 
-
 public class App {
     public static void main(String[] args) {
+    	
     	Scanner input = new Scanner(System.in);
     	while (true) {
     		System.out.println("Order Management System");
@@ -19,10 +19,9 @@ public class App {
     			System.out.println("Add new order: ");
     			break;
     		} else if (userInput == 2) {
-    			System.out.println(Orders.printOrders());
+    			BetterOrders.printNames();
     			System.out.println("Edit order: ");
     			int editInput = input.nextInt();
-    			Orders.getOrderInfo(editInput);
     			break;
     		} else if (userInput == 3) {
     			System.out.println("Remove order: ");
