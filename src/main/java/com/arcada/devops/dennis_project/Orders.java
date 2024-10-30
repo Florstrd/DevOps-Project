@@ -59,7 +59,7 @@ public class Orders {
 			System.out.println("EcoSphere Industries\r\n"
 					+ "Price: 100 000€\r\n"
 					+ "Amount: 100 000\r\n"
-					+ "Item: Planters");
+					+ "Item: Planter");
 		}
 		else if (editInput == 8) {
 			System.out.println("Apex Horizon Consulting\r\n"

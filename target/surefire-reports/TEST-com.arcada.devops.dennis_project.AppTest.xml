@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="com.arcada.devops.dennis_project.AppTest" time="0.035" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="com.arcada.devops.dennis_project.AppTest" time="0.036" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="C:\Users\florstrd\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.0.v20240919-1706\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\florstrd\AppData\Local\Temp\surefire12925237860996068583\surefirebooter-20241030222118855_3.jar C:\Users\florstrd\AppData\Local\Temp\surefire12925237860996068583 2024-10-30T22-21-18_625-jvmRun1 surefire-20241030222118855_1tmp surefire_0-20241030222118855_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\florstrd\AppData\Local\Temp\surefire18241578449574815726\surefirebooter-20241030231856387_3.jar C:\Users\florstrd\AppData\Local\Temp\surefire18241578449574815726 2024-10-30T23-18-56_159-jvmRun1 surefire-20241030231856387_1tmp surefire_0-20241030231856387_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\florstrd\eclipse-workspace\dennis_project\target\test-classes;C:\Users\florstrd\eclipse-workspace\dennis_project\target\classes;C:\Users\florstrd\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.1\junit-jupiter-engine-5.7.1.jar;C:\Users\florstrd\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\florstrd\.m2\repository\org\junit\platform\junit-platform-engine\1.7.1\junit-platform-engine-1.7.1.jar;C:\Users\florstrd\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\florstrd\.m2\repository\org\junit\platform\junit-platform-commons\1.7.1\junit-platform-commons-1.7.1.jar;C:\Users\florstrd\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.1\junit-jupiter-api-5.7.1.jar;C:\Users\florstrd\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.1\junit-jupiter-params-5.7.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\florstrd\AppData\Local\Temp\surefire12925237860996068583\surefirebooter-20241030222118855_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\florstrd\AppData\Local\Temp\surefire18241578449574815726\surefirebooter-20241030231856387_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="23+37"/>
@@ -62,5 +62,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.arcada.devops.dennis_project.AppTest" time="0.02"/>
+  <testcase name="shouldAnswerWithTrue" classname="com.arcada.devops.dennis_project.AppTest" time="0.021"/>
 </testsuite>
